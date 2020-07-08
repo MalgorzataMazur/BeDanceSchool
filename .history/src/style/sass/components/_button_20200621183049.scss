@@ -1,0 +1,91 @@
+.btn {
+    @include button-reset;
+    text-transform: uppercase;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    border-radius: 5rem;
+
+    &--action {
+        width: 15rem;
+        padding: 1.1rem 0;
+        background-color: var(--color-black);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        font: 800 1.5rem $font-primary;
+
+        &:hover {
+            color: var(--color-grey-light-1);
+        }
+    }
+
+    
+    &--black, 
+    &--white {
+        font: 800 1.3rem $font-primary;
+        padding: 1.2rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &--black {
+        width: 12rem;
+        margin-right: 1rem; 
+    }
+
+    &--white {
+        width: 12.5rem;
+        color: var(--color-black);
+        background-color: var(--color-white);
+    }
+
+    &--align {
+        width: 16rem;
+        padding: 1.2rem 0;
+        display: block;
+        margin:  8rem auto;
+        font: 400 $default-font-size $font-primary;  
+    }
+
+    &--video {
+        width: 13rem;
+        padding: 1.3rem 2rem;
+        display: block;
+        margin: 0 auto;
+        font: 400 $default-font-size $font-primary;  
+        text-transform: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+
+    &--dark{
+        width: 14rem;
+        height: 4rem;
+        margin: 0 auto;
+    }
+
+    &__icon {
+        fill: currentColor;
+
+        &--chevron {
+            width: 2rem;
+            height: 2rem;
+        }
+
+        &--play {
+            width: 1.7rem;
+            height: 1.7rem;
+        }
+    }
+
+    &--long {
+        width: 20rem;
+        height: ;
+    }
+
+    
+}

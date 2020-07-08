@@ -1,0 +1,27 @@
+.contact {
+    width: 100%;
+
+
+    &__wrapper {
+        margin: 0 auto;
+    }
+
+    &__text-box {
+        width: 100%;
+z        margin-bottom: 4rem;
+    }
+
+    &__paragraph {
+        text-align: center;
+        margin-bottom: 1.5rem; 
+        margin-right: 2rem; 
+        margin-left: 2rem; 
+    }
+
+    &__form {
+        width: 65%;
+        margin: 0 auto;
+        
+    }
+
+}

@@ -1,0 +1,57 @@
+.team {
+    width: 100%;
+    background-color: var(--color-blue-dark);
+    padding: 10rem 0 7rem;
+
+    &__wrapper {
+        margin: 0 auto;
+        
+    }
+
+    &__text-box {
+        text-align: center;
+        padding: 0 12rem;
+        margin-bottom: 4rem;
+    }
+    
+    &__heading {
+        color: var(--color-white);
+    }
+
+    &__subheading {
+        
+    }
+
+    &__paragraph {
+        color: var(--color-grey-dark-3);
+    }
+
+    &__gallery {
+
+    }
+
+    &__photo {
+        background-image: url(/src/);
+    }
+
+    &__name {
+
+    }
+
+    &__icons {
+
+    }
+
+    &__item {
+        
+    }
+
+    &__icon {
+        width: 3rem;
+        height: 3rem;
+        fill: var(--color-primary-dark);
+    }
+
+
+
+}

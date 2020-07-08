@@ -1,0 +1,98 @@
+.about {
+    width: 100%;
+    padding: 15rem 10rem 5rem;
+
+    &__wrapper {
+        margin: 0 auto;
+    }
+
+    &__text-box {
+        width: 100%;
+        padding: 0 15rem;
+        margin-bottom: 8rem;
+    }
+
+    
+    &__paragraph {
+        text-align: center;
+        margin-bottom: 3rem;   
+    }
+
+    &__styles {
+        width: 100%;
+        display: flex;
+        overflow: hidden;
+    }
+
+    &__style-box {
+        padding: 0 2rem;
+        flex-direction: column;
+        flex: 0 0 33.33%;
+    }
+
+    &__style-item {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 4rem;
+    }
+
+    &__photo {
+        width: 30rem;
+        height: 35rem;
+    }
+
+    &__details {
+       margin: 0 2rem 1.5rem;
+    }
+
+    // &__name {
+    //     text-align: center;
+    //     margin-bottom: 1.5rem;
+    // }
+
+    &__level {
+        color: var(--color-primary-dark);
+        text-transform: uppercase;
+    //     text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    &__description {
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    &__bg-video {
+        border-radius: 1.5rem;
+        overflow: ;
+    }
+
+    &__bg-video-content {
+        background-image: url(/src/images/danceschool2-columnbg4.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        padding: 10rem 10rem 9rem;
+        border-radius: 1.5rem;
+    }
+
+    &__video-heading {
+        text-align: center;
+        padding-bottom: 3.5rem;
+        
+    }
+
+    &__bg-video-sub-title {
+        font-size: 5rem;
+        color: var(--color-primary-dark);
+        text-align: center;
+        padding-bottom: 4rem;
+    }
+
+    &__bg-video-text {
+        color: var(--color-white);
+        text-align: center;
+        padding-bottom: 6rem;
+    }
+
+}

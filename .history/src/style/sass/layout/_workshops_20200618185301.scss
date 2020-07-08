@@ -1,0 +1,22 @@
+.workshops {
+    width: 100%;
+    background-color: var(--color-secondary);
+    margin-top: -10rem;
+    
+
+     &__wrapper {
+        margin: 0 auto;
+    }
+
+    &__heading-box {
+        padding: 0 12%;
+        // margin-top: 30rem;
+    }
+
+    &__main-heading {
+        color: var(--color-white)
+    }
+
+    
+
+}
