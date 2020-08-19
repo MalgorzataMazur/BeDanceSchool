@@ -1,0 +1,34 @@
+.hamburger {
+    @include button-reset;
+    width: 4rem;
+    height: 4rem;
+    background-color: red;
+
+    &__button {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: .5rem;
+        border-radius: 1rem;
+        background-color: white;
+        // opacity: 1;
+
+
+        &:before,
+        &:after {
+            transition: transform .2s ease-in-out;
+            left: 0;
+            content: "";
+            position: absolute;
+            border-radius: 1rem;
+            width: 100%;
+            height: 100%;
+            background-color: var(--color-white);
+        }
+        &:before {
+            top: 1.5rem;
+        }
+        &:after {
+            top: -1.5rem
+    }
+}}

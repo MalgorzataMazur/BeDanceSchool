@@ -1,0 +1,82 @@
+.header {
+    background-color: var(--color-primary);
+    max-height: 100vh;
+    overflow: hidden;
+
+
+    &__hero-box {
+        min-width: 100%;
+        height: 100%;
+        display: flex;
+        
+        padding-top: 9rem;
+
+            @include respond(tab-land) { 
+        margin-top: 10rem;
+    }
+
+    }
+
+    &__left-side {
+        flex: 0 0 45%;
+        // height: 100%;
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: space-around;
+        // align-items: center;
+        position: relative;
+    }
+     
+    &__hero-text {
+        position: absolute;
+        left: 20%;
+        top: 15%;
+    }
+
+    &__subheading {
+        font: 400 7.9rem/7.9rem $font-secondary;
+        color: var(--color-black);
+        z-index: 2;
+        margin-top: -5rem; 
+    }
+     
+    &__btn-scroll-box {
+        padding-top: 4rem;
+        display: flex;
+    }
+
+    &__right-side {
+        flex: 0 0 55%;
+        height: 100%;
+        display: flex;
+        position: relative;      
+        overflow: hidden;
+    }
+
+    &__writing {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        left: 20%;
+        top: 15%;
+        z-index: 1;
+    }
+
+    &__text-img {
+        width: 40%;
+        height: 40%;
+    }
+    
+    &__hero-picture {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        z-index: 4;   
+    }
+    &__img {
+        width: 100%;
+        height: 100%; 
+
+    }
+
+}

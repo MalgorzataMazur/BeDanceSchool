@@ -1,0 +1,6 @@
+.hamburger {
+    @include button-reset;
+    width: 4rem;
+    height: 4rem;
+    background-color: red;
+}

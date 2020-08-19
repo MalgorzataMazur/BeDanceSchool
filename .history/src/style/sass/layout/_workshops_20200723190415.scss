@@ -1,0 +1,108 @@
+.workshops {
+    width: 100%;
+    background-color: var(--color-secondary);
+    // padding-top: 15rem;
+    margin-top: -15rem;
+    padding-bottom: 23rem;
+    &__wrapper {
+        margin: 0 auto;
+    }
+
+    &__heading-box {
+        height: 30rem;
+        width: 100%;
+        padding: 0 12%;
+    }
+
+    &__heading {
+        color: var(--color-white);
+    }
+
+    &__row {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__card {
+        // height: 55rem;
+        padding: 6rem 4rem 5.5rem;
+        // flex: 0 0 33.33%;
+        flex: 1;
+        background-color: var(--color-white);
+        border-radius: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        margin: 0 1.5rem 3rem;
+    }
+
+    &__card-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__date {
+        margin-bottom: 1.5rem;
+        color: var(--color-primary-dark);
+    }
+
+
+    &__recipient {
+        font: 400 3rem/3rem $font-secondary;
+        color: var(--color-primary-dark);
+        margin-bottom: 3rem;
+    }
+
+    &__description {
+        text-align: center;
+        margin: 0 0 2.5rem;
+    }
+
+    &__star-list {
+        margin-bottom: 2rem;
+        list-style: none;
+        padding-left: 2rem;
+        color: var(--color-grey-light-6);
+    }
+
+    &__item {
+        margin-bottom: 2rem;
+        position: relative;
+
+        &:before {
+            content: "";
+            display: inline-block;
+            height: 1.2rem;
+            width: 1.2rem;
+            margin-right: 1.5rem;
+            //Older browsers
+            background-image: url(/src/images/SVG/star.svg);
+            background-size: cover;
+        }
+
+        &:first-child:after {
+            content: "";
+            display: inline-block;
+            left: -2rem;
+            bottom: -1rem;
+            width: 7rem;
+            height: 0.1rem;
+            overflow: hidden;
+            background: rgba(0,0,0,.08);  
+            position: absolute;
+        }
+    }
+    &__card-price {
+        margin-bottom: 2rem;
+    }
+
+    &__card-two {
+        flex: 1;
+    }
+
+    &__card-three {
+        flex: 1;
+    }
+
+}
