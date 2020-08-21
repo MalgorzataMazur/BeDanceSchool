@@ -6,7 +6,7 @@
     "scripts": {
         "build": "webpack",
         "dev": "webpack-dev-server",
-        "deploy": "gh-pages -d dist"
+        "deploy":
     },
     "keywords": [],
     "author": "",

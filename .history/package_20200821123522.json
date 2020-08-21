@@ -5,13 +5,12 @@
     "main": "index.js",
     "scripts": {
         "build": "webpack",
-        "dev": "webpack-dev-server",
-        "deploy": "gh-pages -d dist"
+        "dev": "webpack-dev-server"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
-    "homepage": "https://MalgorzataMazur.github.io/BeDanceSchool",
+    "homepage": "https://github.com/MalgorzataMazur/BeDanceSchool",
     "devDependencies": {
         "@babel/core": "^7.9.0",
         "@babel/preset-env": "^7.9.5",
