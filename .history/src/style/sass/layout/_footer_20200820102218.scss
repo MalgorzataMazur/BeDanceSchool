@@ -1,0 +1,32 @@
+.footer {
+    width: 100%;
+    border-top: 1px solid rgba(0,0,0,0.1);
+
+
+    &__wrapper {
+        margin: 0 auto;
+    }
+
+    &__copywright {
+        width: 100%;
+        padding-top: 3rem;
+        margin-bottom: 3rem;
+
+        
+    }
+
+    &__copywright-text {
+        text-align: center;
+        color: var(--color-grey-light-7);
+                @include respond(phone) { 
+            margin: 0 7rem;
+        }
+
+    }
+
+    &__link {
+        text-decoration: none;
+        color: var(--color-primary-dark);
+    }
+
+}

@@ -1,0 +1,101 @@
+.gallery {
+    margin-top: -25rem;
+    padding-top: 10rem;
+    width: 100%;
+
+                @include respond(tab-land) { 
+                 margin-top: -20rem;
+
+    }
+
+    
+     &__wrapper {
+        margin: 0 auto;
+        width: 100%;
+        // height: auto;
+        display: flex;
+        flex-flow: row nowtrap;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    &__showcase {
+        width: 40rem;
+        height: 40rem;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 1rem;
+
+        @include respond(tab-land) { 
+            width: 30rem;
+            height: 30rem;
+            margin: 0 .8rem;
+    }
+        @include respond(tab-port) { 
+            width: 21rem;
+            height: 21rem;
+            margin: 0 .8rem;
+    }
+        @include respond(phone) { 
+        //     width: 16rem;
+        //     height: 16rem;
+        //     margin: 0 .8rem;
+        //     margin: 0 .5rem;
+        //     // justify-content: ;
+        align-items: space-between;
+    }
+
+    }
+    
+
+    &__composition {
+
+        &--duo {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; 
+            align-items: center;
+
+             @include respond(phone) {
+                 justify-content: space-around;
+             }
+        }
+    }
+    
+    &__composition-photo {
+        width: 19rem;
+        height: 19rem;
+
+            @include respond(tab-land) { 
+                width: 14rem;
+                height: 14rem;
+    }
+            @include respond(tab-port) { 
+                width: 10rem;
+                height: 10rem;
+    }
+            @include respond(phone) { 
+                width: 9rem;
+                height: 9rem;
+    }
+
+
+        &--p1 {
+            margin-top: 50%;
+        }
+    }
+
+    &__img {
+        height: 100%;
+        width: 100%;
+        display: block;
+        border-radius: 1.5rem;
+        object-fit: cover;
+    }
+    
+    &__button {
+        display: block;
+        margin: 5rem auto;
+    }
+
+}

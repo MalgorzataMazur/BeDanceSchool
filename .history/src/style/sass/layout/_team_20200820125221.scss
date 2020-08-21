@@ -1,0 +1,94 @@
+.team {
+    width: 100%;
+    background-color: var(--color-blue-dark);
+    padding: 15rem 0 7rem;
+
+    &__wrapper {
+        margin: 0 auto;
+        
+    }
+
+    &__text-box {
+        text-align: center;
+        padding: 0 12rem;
+        // margin-bottom: 4rem;
+
+        
+                                @include respond(tab-land) { 
+                    padding: 0 5rem;
+    }
+
+    }
+    
+    &__heading {
+        color: var(--color-white);
+    }
+
+    &__subheading {
+        
+    }
+
+    &__paragraph {
+        color: var(--color-grey-dark-3);
+        margin: 0 2rem;
+    }
+
+    &__gallery {
+        margin-top: 8rem;
+        display: flex;
+    
+@include respond(phone) {
+    flex-direction: column;
+    justify-items: center;
+}
+        
+    }
+
+    &__photo {
+        height: 35rem;
+        border-radius: 1.5rem;
+        flex: 1;
+        flex-direction: column;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+        margin: 0 1rem 4rem;
+        padding-bottom: 4rem;
+
+        &--first {
+            background-image: url(/src/images/danceschool2-pic5.jpg);
+        }
+        
+        &--second {
+            background-image: url(/src/images/danceschool2-pic6.jpg);
+        }
+        
+        &--third {
+            background-image: url(/src/images/danceschool2-pic7.jpg);
+        }
+    }
+
+    &__name {
+        color: var(--color-white);
+    }
+
+    &__icons {
+        margin-bottom: 1.5rem;
+    }
+
+    &__item {
+        margin-right: 1rem;
+    }
+
+    &__icon {
+        width: 3rem;
+        height: 3rem;
+        fill: var(--color-primary-dark);
+    }
+
+
+
+}

@@ -1,0 +1,40 @@
+.hamburger {
+    padding: 1rem;
+    display: inline-block;
+    margin: 0;
+    // border: 0;
+    @mixin button-reset;
+//     width: 3rem;
+//     height: 3rem;
+//     position: fixed;
+//     top: 2rem;
+//     right: 5rem;
+   
+
+//     &__button {
+//         position: relative;
+//         display: block;
+//         width: 100%;
+//         height: .3rem;
+//         border-radius: 1rem;
+//         background-color:var(--color-white);
+
+
+//         &:before,
+//         &:after {
+//             left: 0;
+//             content: "";
+//             position: absolute;
+//             border-radius: 1rem;
+//             width: 100%;
+//             height: 100%;
+//             background-color: var(--color-white);
+//         }
+//         &:before {
+//             top: 1rem;
+//         }
+//         &:after {
+//             top: -1rem
+//     }
+// }
+}
